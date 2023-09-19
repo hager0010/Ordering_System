@@ -1,0 +1,570 @@
+
+
+
+/*********************************
+popup for login form
+**********************************/
+
+
+ #order-model-L {
+     display:none;
+	 position:fixed;
+	 top:0;
+	 left:0;
+	 bottom:0;
+	 right:0;
+	 width:100%;
+	 background-color:rgba(0,0,0,0.5);
+	/*background-color:transparent;*/
+	z-index:999;
+	overflow:auto	 
+ }
+  /********************************model-content********/
+  #model-content-L{
+	  background-color:#efefef;
+	  width:50%;
+	  height:auto;
+	  margin:20vh 0;
+	  box-shadow:4px 4px 4px rgba(0,0,0,0.25);
+	  animation-name:modalSlideUp;
+	  animation-duration:1s;
+	  
+	  
+  }
+  
+  /*****************model-header************************/
+#model-header-L{
+	  background-color:#d11a1a;
+	  color:#fff;
+	  padding:1px ;
+	  text-align:center;
+	  text-transform:uppercase;
+  }
+  
+/*****************model-header .close-model************************/
+#model-header-L .close-model-L{
+	float:right;
+	font-size:100%;
+	margin-right:10px;
+	color:white;
+
+}
+#model-header-L h2{font-size:100% ;margin:5px}
+
+#model-header-L .close-model-L:hover{
+	cursor:pointer;
+}
+
+
+/**********************model-body***********************/
+#model-body-L{
+	
+	padding:10px 10px;
+}  
+
+#model-body-L form .popFild-L{
+	width:70%; 
+	padding:8px 3px; 
+	margin:0 10px 018px 0;
+}
+
+
+
+#model-body-L h3{
+	color:#d11a1a;
+	text-transform:uppercase;
+	font-size:100%;
+	text-align:center;
+	margin:0;
+}
+
+
+
+/******************  . form-group*****************/
+
+#model-body-L form .loginBtn-L{
+	font-size:1rem;
+	text-transform:uppercase;
+	color:#fff;
+	padding:8px 0;
+	border:none;
+	border-radius:5px;
+	cursor:pointer;
+	background-color:#d11a1a;
+	width:80px;
+	/*margin:10px 0 3px 24.5%;
+	transition: background 0.3;*/
+}
+
+@media screen and (max-device-width:400px){
+	#model-content-L{width:95%}
+    #model-body-L form .popFild-L{width:90%;padding:8px 3px;margin:0 10px 018px 0}
+	
+}
+@media screen and (min-device-width:401px) and (max-device-width:600px){
+    #model-content-L{width:80%}
+    #model-body-L form .popFild-L{width:90%;padding:8px 3px;margin:0 10px 018px 0}
+}
+
+@media screen and (min-device-width:601px) and (max-device-width:768px){
+	#model-content-L{width:60%}
+	 #model-body-L form .popFild-L{width:70%; 
+	padding:8px 3px; 
+	margin:0 10px 018px 0;	}
+}
+
+@media screen and (min-device-width:769px) and (max-device-width:800px){
+	#model-content-L{width:55%}
+	 #model-body-L form .popFild-L{width:70%; 
+	padding:8px 3px; 
+	margin:0 10px 018px 0;	}
+	
+}
+
+
+@media screen and (min-device-width:801px) and (max-device-width:992px){
+
+	#model-content-L{width:50%}
+	 #model-body-L form .popFild-L{width:70%; 
+	padding:8px 3px; 
+	margin:0 10px 018px 0;	}
+}
+
+@media screen and (min-device-width:993px) and (max-device-width:1200px){
+
+	#model-content-L{width:50%}
+	 #model-body-L form .popFild-L{width:70%; 
+	padding:8px 3px; 
+	margin:0 10px 018px 0;	}
+}
+
+
+
+
+
+/*******************************
+popup for register form
+*******************************/
+
+
+ #order-model-R {
+     display:none;
+	 position:fixed;
+	 top:0;
+	 left:0;
+	 bottom:0;
+	 right:0;
+	 width:100%;
+	 background-color:rgba(0,0,0,0.5);
+	/*background-color:transparent;*/
+	z-index:999;
+	overflow:auto
+
+	 
+ }
+  /********************************model-content********/
+  #model-content-R{
+	  background-color:#efefef;
+	  width:50%;
+	  height:auto;
+	  margin:20vh 0;
+	  box-shadow:4px 4px 4px rgba(0,0,0,0.25);
+	  animation-name:modalSlideUp;
+	  animation-duration:1s;
+	  
+	  
+  }
+  
+  /*****************model-header************************/
+#model-header-R{
+	  background-color:#d11a1a;
+	  color:#fff;
+	  padding:1px ;
+	  text-align:center;
+	  text-transform:uppercase;
+  }
+  
+/*****************model-header .close-model************************/
+#model-header-R .close-model-R{
+	float:right;
+	font-size:100%;
+	margin-right:10px;
+	color:white;
+
+}
+
+#model-header-R h2{font-size:100% ;margin:5px}
+
+#model-header-R .close-model-R:hover{
+	cursor:pointer;
+}
+
+
+/**********************model-body***********************/
+#model-body-R{
+	
+	padding:10px 10px;
+}  
+
+#model-body-R form .popFild-R{
+	width:70%; 
+	padding:8px 3px; 
+	margin:0 10px 018px 0;
+}
+
+
+
+#model-body-R h3{
+	color:#d11a1a;
+	text-transform:uppercase;
+	font-size:100%;
+	text-align:center;
+	margin:0;
+}
+
+
+
+/******************  . form-group*****************/
+
+#model-body-R form .loginBtn-R{
+	font-size:1rem;
+	text-transform:uppercase;
+	color:#fff;
+	padding:8px 0;
+	border:none;
+	border-radius:5px;
+	cursor:pointer;
+	background-color:#d11a1a;
+	width:80px;
+	/*margin:10px 0 3px 24.5%;
+	transition: background 0.3;*/
+}
+
+
+
+
+@media screen and (max-device-width:400px){
+	#model-content-R{width:95%}
+    #model-body-R form .popFild-R{width:90%;padding:8px 3px;margin:0 10px 018px 0}
+	
+}
+@media screen and (min-device-width:401px) and (max-device-width:600px){
+    #model-content-R{width:80%}
+    #model-body-R form .popFild-R{width:90%;padding:8px 3px;margin:0 10px 018px 0}
+}
+
+@media screen and (min-device-width:601px) and (max-device-width:768px){
+	#model-content-R{width:60%}
+	 #model-body-R form .popFild-R{width:70%; 
+	padding:8px 3px; 
+	margin:0 10px 018px 0;	}
+}
+
+@media screen and (min-device-width:769px) and (max-device-width:800px){
+	#model-content-R{width:55%}
+	#model-body-R form .popFild-R{width:70%; 
+	padding:8px 3px; 
+	margin:0 10px 018px 0;	}
+	
+}
+
+
+@media screen and (min-device-width:801px) and (max-device-width:992px){
+
+	#model-content-R{width:50%}
+	#model-body-R form .popFild-R{width:70%; 
+	padding:8px 3px; 
+	margin:0 10px 018px 0;	}
+}
+
+@media screen and (min-device-width:993px) and (max-device-width:1200px){
+
+	#model-content-R{width:50%}
+	#model-body-R form .popFild-R{width:70%; 
+	padding:8px 3px; 
+	margin:0 10px 018px 0;	}
+}
+
+
+
+/*******************************
+popup for OrderNow form
+*******************************/
+
+
+ #order-model-O {
+     display:none;
+	 position:fixed;
+	 top:0;
+	 left:0;
+	 bottom:0;
+	 right:0;
+	 width:100%;
+	 background-color:rgba(0,0,0,0.5);
+	/*background-color:transparent;*/
+	z-index:999;
+	overflow:auto
+ }
+ 
+ #order-model-O::-webkit-Scrollbar{
+	width:5px;
+	background-color:#c9bdbd;
+}
+
+ #order-model-O::webkit-Scrollbar-track{
+	background-color:white;
+}
+
+ #order-model-O::-webkit-Scrollbar-thumb{
+	background-color:#d11a1a;
+	border-radius:20px;
+} 
+  /********************************model-content********/
+  #model-content-O{
+	  background-color:#efefef;
+	  width:60%;
+	  height:auto;
+	  margin:30px 0;
+	  box-shadow:4px 4px 4px rgba(0,0,0,0.25);
+	  animation-name:modalSlideUp;
+	  animation-duration:1s;  
+  }
+ 
+
+
+  
+  /*****************model-header************************/
+#model-header-O{
+	  background-color:#d11a1a;
+	  color:#fff;
+	  padding:1px ;
+	  text-align:center;
+	  text-transform:uppercase;
+  }
+  
+  
+  
+/*****************model-header .close-model************************/
+#model-header-O .close-model-O{
+	float:right;
+	font-size:100%;
+	margin-right:10px;
+	color:white;
+
+}
+
+#model-header-O h2{font-size:100% ;margin:5px}
+
+#model-header-O .close-model-O:hover{
+	cursor:pointer;
+}
+
+
+/**********************model-body***********************/
+#model-body-O{
+	padding:10px 10px;
+}  
+
+#model-body-O h3{
+	color:#d11a1a;
+	text-transform:uppercase;
+	font-size:100%;
+	text-align:center;
+	margin:0;
+}
+
+#model-body-O form .popFild-O{
+	width:45%; 
+	padding:8px 3px; 
+	margin:0 10px 018px 0;
+}
+
+
+/**********************
+select field
+***********************/
+
+#model-body-O .details-order{
+	border:1px solid #dadada; 
+	margin: 20px 0 0 0; 
+    padding:10px 0 0 0 ;
+}
+
+
+#model-body-O .details-order form{	
+	 margin: 20px 0;
+}
+
+
+#model-body-O form .popFildSele-O{	
+	color:#716a6a; 
+	background-color:white;
+	width:47%;
+	padding:8px 3px; 
+	margin:0 10px 018px 0;
+}
+
+#model-body-O form .Btn-O{
+	font-size:1rem;
+	text-transform:uppercase;
+	color:#fff;
+	padding:8px 0;
+	border:none;
+	border-radius:5px;
+	cursor:pointer;
+	background-color:#d11a1a;
+	width:260px;
+}
+
+
+
+/******************.form-group*****************/
+
+#Yorder{
+  margin-top: 15px;
+  height: auto;
+  width:auto;
+  padding: 20px;
+  border: 1px solid #dadada;
+  display:none;
+}
+
+
+#Yorder input[type="radio"]{
+	cursor:pointer;
+}
+
+
+table{
+  margin: 0;
+  padding: 0;
+}
+
+th{
+  border-bottom: 1px solid #dadada;
+  padding: 10px 0;
+  
+}
+
+tr>td:nth-child(1){
+  text-align: left;
+  color: #2d2d2a;
+}
+tr>td:nth-child(2){
+  text-align: right;
+  color: #d11a1a;
+}
+td{
+  border-bottom: 1px solid #dadada;
+  padding: 25px 25px 25px 0;
+}
+
+p{
+  display: block;
+  color: #888;
+  margin: 0;
+  padding-left: 25px;
+}
+#Yorder>div{
+  padding: 15px 0; 
+}
+
+
+#Yorder .Btn-O{
+	font-size:1rem;
+	text-transform:uppercase;
+	color:#fff;
+	padding:8px 0;
+	border:none;
+	border-radius:5px;
+	cursor:pointer;
+	background-color:#d11a1a;
+	width:120px;
+}
+
+@media screen and (max-device-width:400px){
+	#model-content-O{width:95%}
+	#model-body-O form {padding-right:10px; padding-left:10px}
+	#model-body-O form .popFild-O{width:98%;}
+	#model-body-O form .popFildSele-O{width:100%}
+	#model-body-O form .Btn-O{width:190px; font-size:0.8rem}
+	#Yorder .Btn-O{width:120px;font-size:0.8rem}
+	#Yorder{width:auto}	
+}
+
+@media screen and (min-device-width:401px) and (max-device-width:639px){
+    #model-content-O{width:80%}
+	#model-body-O form {padding-right:10px; padding-left:10px}
+	#model-body-O form .popFild-O{width:98%;}
+	#model-body-O form .popFildSele-O{width:100%}
+	#model-body-O form .Btn-O{width:260px;}
+	#Yorder .Btn-O{width:120px;}
+	#Yorder{width:auto}	
+}
+
+
+
+
+@media screen and (min-device-width:640px) and (max-device-width:685px){
+	#model-content-O{width:80%}
+	#model-body-O form {padding-right:10px; padding-left:10px}
+	#model-body-O form .popFild-O{width:98%}
+	#model-body-O form .popFildSele-O{width:100%}
+	#model-body-O form .Btn-O{width:260px}
+	#Yorder{width:auto}
+	#Yorder .Btn-O{width:120px}
+}
+
+
+
+@media screen and (min-device-width:686px) and (max-device-width:768px){
+	#model-content-O{width:75%}
+	#model-body-O form {padding-right:10px; padding-left:10px}
+	#model-body-O form .popFild-O{width:45%;}
+	#model-body-O form .popFildSele-O{width:47%;}
+	#model-body-O form .Btn-O{width:260px}	
+	#Yorder{width:auto}
+	#Yorder .Btn-O{width:120px}	
+}
+
+@media screen and (min-device-width:769px) and (max-device-width:800px){
+	#model-content-O{width:70%}
+	#model-body-O form {padding-right:10px; padding-left:10px}
+	#model-body-O form .popFild-O{width:45%;}
+	#model-body-O form .popFildSele-O{width:47%;}
+	#model-body-O form .Btn-O{width:260px}	
+	#Yorder{width:auto}
+	#Yorder .Btn-O{width:120px;}
+}
+
+
+@media screen and (min-device-width:801px) and (max-device-width:992px){
+	#model-content-O{width:65%}
+	#model-body-O form {padding-right:10px; padding-left:10px}
+	#model-body-O form .popFild-O{width:45%;}
+	#model-body-O form .popFildSele-O{width:47%;}
+	#model-body-O form .Btn-O{width:260px}	
+	#Yorder{width:auto}
+	#Yorder .Btn-O{width:120px;}
+}
+
+@media screen and (min-device-width:993px) and (max-device-width:1200px){
+	#model-content-O{width:60%}
+	#model-body-O form {padding-right:10px; padding-left:10px}
+	#model-body-O form .popFild-O{width:45%;}
+	#model-body-O form .popFildSele-O{width:47%;}
+	#model-body-O form .Btn-O{width:260px}	
+	#Yorder{width:auto}
+	#Yorder .Btn-O{width:120px;}
+}
+
+/**************************************************
+animation for popup
+***************************************************/
+@keyframes modalSlideUp{ 
+
+from {
+	transform:translateY(-1500px);
+   }
+}
+

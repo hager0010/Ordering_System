@@ -1,0 +1,708 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>WSite</title>
+	
+
+
+	<link rel="icon" href="icons/w.png" /> <!--to put imge for site-->
+	<link rel="stylesheet" href="css/pagestyle.css">
+	<link rel="stylesheet" href="css/popupForm.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+
+
+
+
+ <!--------------scripts------------------->
+	<script src="js/mainJS.js"></script>
+
+  
+  </head>
+  
+  <body>
+  <header id="header-section">
+    <div id="top-nav">
+	 	<div id="top-nav-content">
+		
+		
+		<div id="social">
+		     <ul>
+			   
+			 <center>
+			   <li><a href="#"><i class="fa fa-facebook-f" title="Facebook"></i></a></li>
+			   <li><a href="#"><i class="fa fa-twitter" title="Twitter"></i></a></li>
+			   <li><a href="#"><i class="fa fa-instagram" title="Instagram"></i></a></li>
+			 </center>
+			 
+			 </ul>
+			 
+		</div> <!-----social--->
+			  
+			  
+	<div id="topNav-button">
+		      <center>	  
+			  <button type="submit" onclick="open_popupL()">Login</button>
+		      <button type="submit" onclick="open_popupR()">Register</button>
+	         </center>
+			 
+	    </div> <!----topNav-button---->	  
+		</div> <!------top-nav-content------>
+	</div> <!----top-nav----->
+	
+	
+	<center>
+	<div id="main-header" >
+		
+		<center><h1>First<img src="icons/w.png"/>Site</h1></center>
+		
+	</div>
+	</center>
+	
+  </header> <!---header-section--->
+  
+  
+  
+  <section id="content-page">
+  
+  <div id="menu" >
+   
+   	       <a href="#">Home</a>
+		   <a href="#about">About Us</a>
+	       <a href="#product">Products</a>
+	      <a href="#contact">Contact Us</a>
+</div>
+
+	<!--------second menu appear when user open the website from smaller screen--------> 
+	 <div id="menu2">
+	 <div id="Button-content">
+	 
+	 <div id="header-button">
+	 
+	 <center>
+	 <span id="three-lines" onclick="openButton()">&#9776;</span>
+	 </center>
+	 
+	 <center>
+	 <span class="X-icon" id="two-lines" onclick="closeButton()">&#10006;</span>
+	 </center>
+	 
+	 </div> <!---header-button--->
+	 
+	 
+	 <div id="links">
+	 <a href="#header-section" onclick="whenact()" >Home</a>
+	
+	
+	<a href="#about" onclick="whenact()"onclick="whenact()" >About US</a>
+	
+	
+	<a href="#product"  onclick="whenact()">Products</a>
+
+	
+	<a href="#contact" onclick="whenact()">Contact US</a>
+	
+	</div> <!--links-->
+	 
+	 
+	 
+	 </div> <!--Button-content--> 
+	 </div> <!--menue2>
+	 
+
+	
+	
+	
+<!------------------tthree sections------------------>	
+  <section id="about" >
+ <center> 
+  <div class="container" >
+  
+  
+	<div class="content">
+	
+	<div id="title" >
+	
+	<h5>About Us</h5>
+	<h2>We work with top brands and startups</h2>
+	
+	</div>  <!--title-->
+	
+	<div id="info">
+	<p>
+	An 'About Us' page is a spot for your founding story, a place to show off your business wins, and a sales page that answers the most pressing question new customers have about your business.
+
+    What an 'About Us' page should be is a goal-oriented sales page, one that focuses on highlighting the biggest selling points of your story and brand at the top of the page, making a strong first impression on curious customers
+	</p>
+	
+	</div> <!---info-->
+		
+	
+	</div> <!----content--->
+	
+	
+	</div> <!-----container------>
+</center>
+	
+	</section> <!---about--->
+	
+
+	
+<section  id="product" >
+  <div class="container" >
+  
+ <div class="content" >
+	
+	      <div id="title" >
+	
+	         <h5 >Our Products </h5>
+	
+	       </div>  <!--title-->
+		   
+		   
+	
+	
+	 <div class="item">
+		   
+		   
+		  <img src="images/leaves.png"  />
+		  
+		   <div class="content-item" > <!--div2 that contain title-->
+					<h3 class="title-item" >Title</h3>
+					<p class="info">First photo</p>
+					
+		    </div>
+				
+				
+		   <div class="bottom-item" > 
+		   <button type="submit" onclick="open_popuporder()">Order Now</button>
+		   
+			</div>
+			  
+		</div> <!---item----->
+	
+	
+	 <div class="item">
+		   
+		   
+		  <img src="images/New-grayscale.png"  />
+		  
+		   <div class="content-item" > <!--div2 that contain title-->
+					<h3 class="title-item" >Title</h3>
+					<p class="info">First photo</p>
+					
+		    </div>
+				
+				
+		   <div class="bottom-item" > 
+		   <button type="submit" onclick="open_popuporder()">Order Now</button>
+		   
+			</div>
+			  
+		</div> <!---item----->
+		
+		
+		
+		<div class="item">
+				 	<img src="images/wall.jpg" />
+
+        <div class="content-item" > <!--div2 that contain title-->   
+					<h3 class="title-item" >Title</h3>
+					<p class="info">third photo</p>
+					
+		    </div>
+				
+				
+		   <div class="bottom-item"> 
+		   <button type="submit"  onclick="open_popuporder()">Order Now</button>
+
+			</div>
+			  
+		</div> <!---item----->
+		
+		
+			<div class="item">
+				 	<img src="images/stars.png" />
+
+        <div class="content-item" > <!--div2 that contain title-->   
+					<h3 class="title-item" >Title</h3>
+					<p class="info">fourth photo</p>
+					
+		    </div>
+				
+				
+		   <div class="bottom-item"> <!--div3 that contain love botton-->
+		   <button type="submit" onclick="open_popuporder()">Order Now</button>
+
+		   </div>
+			  
+		</div> <!---item----->
+		
+		
+						
+		<div class="item">
+				 	<img src="images/grayscale10.png" />
+
+        <div class="content-item" > <!--div2 that contain title-->   
+					<h3 class="title-item" >Title</h3>
+					<p class="info">fifth photo</p>
+					
+		    </div>
+				
+				
+		   <div class="bottom-item"> <!--div3 that contain love botton-->
+		   <button type="submit" onclick="open_popuporder()">Order Now</button>
+
+		   </div>
+			  
+		</div> <!---item----->
+		
+		
+		<div class="item"  >
+				 	<img src="images/red.jpg"/>
+
+        <div class="content-item" > <!--div2 that contain title-->   
+					<h3 class="title-item" >Title</h3>
+					<p class="info">sixth photo</p>
+					
+		    </div>
+				
+				
+		   <div class="bottom-item">
+		   		   <button type="submit" onclick="open_popuporder()">Order Now</button>
+
+			</div>
+			  
+		</div> <!---item----->
+		
+		
+		<div class="item"  >
+				 	<img src="images/color1.jpg"/>
+
+        <div class="content-item" > <!--div2 that contain title-->   
+					<h3 class="title-item" >Title</h3>
+					<p class="info"> photo</p>
+					
+		    </div>
+				
+				
+		   <div class="bottom-item">
+		   		   <button type="submit" onclick="open_popuporder()">Order Now</button>
+
+			</div>
+			  
+		</div> <!---item----->
+		
+		
+
+		<div class="item"  >
+				 	<img src="images/color.jpg"/>
+
+        <div class="content-item" > <!--div2 that contain title-->   
+					<h3 class="title-item" >Title</h3>
+					<p class="info"> photo</p>
+					
+		    </div>
+				
+				
+		   <div class="bottom-item">
+		   		   <button type="submit"  onclick="open_popuporder()">Order Now</button>
+
+			</div>
+			  
+		</div> <!---item----->
+
+		<div class="item"  >
+				 	<img src="images/re4.jpg"/>
+
+        <div class="content-item" > <!--div2 that contain title-->   
+					<h3 class="title-item" >Title</h3>
+					<p class="info"> photo</p>
+					
+		    </div>
+				
+				
+		   <div class="bottom-item">
+		   		   <button type="submit" onclick="open_popuporder()">Order Now</button>
+
+			</div>
+			  
+		</div> <!---item----->
+	</div><!----content--->	
+  </div> <!-----container------>
+ </section>  <!--Our Products--->
+	  
+
+  	
+	
+	
+	
+<section id="contact">
+
+    <div class="container" >
+	<div class="content" >
+	
+	<center><div id="head-contact"><h5> Contact US </h5></div></center>
+
+	<div id="leftdiv" >
+		
+	<div class="title">
+	<!--<span> Contact US </span>
+	<br>-->
+	<p>Feel Free To Keep In Touch With Us!</p>
+	</div> <!---title------->
+
+	
+	
+	<ul>
+	<li> <img src="icons/phone.png" />010 245 98 114</li>
+	<li><img src="icons/mail2.png" />hager@gmail.com</li>
+	<li><img src="icons/address.png"/>fisal el taksim</li>
+	</div>  <!--leftdiv-->
+	
+	
+	
+	
+	
+	<div id="rightdiv">
+	
+	<form >
+	<div>
+	<input class="names" type="text" name="Fnmae" placeholder="First Name"required onclick="styFun()" />	
+	<input class="names" type="text" name="Lnmae" placeholder="Last Name" required onclick="styFun()" />
+	</div>
+	
+	<div >
+	<input class="cont-info" type="text" name="Phone" required placeholder="Phone" />
+	<input class="cont-info" type="email" name="Mail" placeholder="E-mail" />
+	</div>
+	
+	<div >
+	<textarea class="massage" name="massage" placeholder="Your Massage" rows="5" required></textarea>
+	</div>
+	
+	<center>
+	<div>
+	<button type="submit" >Send Massage Now <i class="fa fa-arrow-right"></i></button>
+	</div>
+	</center>
+	
+	</form>	
+	</div> <!---rightdiv--->
+
+	</div> <!----content--->
+	</div> <!-----container------>
+  </section> <!--contact-->
+  
+  
+  
+  
+  
+  
+  <!-----------scroll toButton----------->
+	<div id="top-page" onclick="topFunction()" > 
+	
+	<i class="fa fa-angle-double-up" ></i>
+	
+	</div>
+	<!------------------------------------>
+
+
+
+
+
+   <!---footer---->	
+	<footer id="end-page">
+           
+           <p class="pragraph1">Copyright @ 2023 - Designed by <span>Hager</span></p>
+	 
+	 </footer>
+   <!---footer---->
+
+
+  
+    <!---------------------pop-up login form------------------------>
+  <center><div id="order-model-L" class="model-L" >
+		<div id="model-content-L">
+		
+		<div id="model-header-L">
+		<span class="close-model-L" onclick="close_popupL()">&#10006;</span>
+		<h2>Login form</h2>
+		</div><!---model-header--->
+		
+		
+		<div id="model-body-L">
+
+<center>
+	<form>
+		<div>
+		<input class="popFild-L" type="mail" name="mail" required placeholder="E-mail" >
+		</div> 
+		
+	
+	    <div >
+		<input class="popFild-L" type="password" name="pass" required placeholder="Password" >
+		</div>
+
+
+		<input class="loginBtn-L" type="submit" value=" login">
+		
+	</form>
+		</center>
+		</div><!-----------model-body"----------->
+	</div> <!-----model-content------>
+	<div> <!-----------order-model----------->
+	</center>
+  
+  
+  
+
+    <!---------------------pop-up Register form------------------------>
+  <center><div id="order-model-R" class="model-R" >
+		<div id="model-content-R">
+		
+		<div id="model-header-R">
+		<span class="close-model-R" onclick="close_popupR()">&#10006;</span>
+		<h2>Register form</h2>
+		</div><!---model-header--->
+		
+		
+		<div id="model-body-R">
+
+<center>
+	<form>
+		<div>
+		<input class="popFild-R" type="text" name="Fname" required  placeholder="First Name" >
+		</div> 
+		
+		<div>
+		<input class="popFild-R" type="text" name="Lname" required  placeholder="Last Name" >
+		</div>
+		
+		<div>
+		<input class="popFild-R" type="mail" name="mail" required  placeholder="E-mail" >
+		</div>
+	
+	    <div >
+		<input class="popFild-R" type="password" name="pass" required  placeholder="Password" >
+		</div>
+		
+		
+		 <div >
+		<input class="popFild-R" type="password" name="pass" required  placeholder=" Confirm Password" >
+		</div>
+
+		<input class="loginBtn-R" type="submit" value=" submit" onclick="submited()">
+		
+	</form>
+		</center>
+		</div><!-----------model-body"----------->
+	</div> <!-----model-content------>
+	<div> <!-----------order-model----------->
+	</center>
+  
+
+
+    <!---------------------POP-UP Order Now------------------------>
+ <center><div id="order-model-O" class="model-O" >
+		<div id="model-content-O">
+		
+		<div id="model-header-O">
+		<span class="close-model-O" onclick="close_popuporder()">&#10006;</span>
+		<h2>Product Order Form</h2>
+		</div><!---model-header--->
+		
+		
+		<div id="model-body-O">
+
+	<form>
+		<div>
+		<input class="popFild-O" type="text" name="Fname" required  placeholder="First Name *" >
+	
+		<input class="popFild-O" type="text" name="Lname" required  placeholder="Last Name *" >
+		</div>
+		
+		<div>
+		<input class="popFild-O" type="mail" name="mail" required  placeholder="Email Address *" >
+	
+		<input class="popFild-O" type="text" name="Phone" required  placeholder="Phone*" >
+		</div>
+		
+		
+		<div>
+		<input class="popFild-O" type="text" name="City" required  placeholder=" Town / City *" >
+		<input class="popFild-O" type="text" name="State" required  placeholder=" State / County *" >
+		</div>
+		
+	    <div>
+
+		<input class="popFild-O" type="text" name="Street Address" required  placeholder=" Street Address *" >
+		<input class="popFild-O" type="text" name="Zcode" required  placeholder=" ZIP Code *" >
+		</div>
+		<div>
+		<input class="popFild-O" type="text" name="Dnum" required  placeholder=" Door Number *" >
+
+		<select name="selection" class="popFildSele-O">
+         <option value="none" selected > Select a country *</option>
+		 <option value="Egypt">Egypt</option>
+		 <option value="ASpania">ASpania</option>
+		 <option value="Germany">Germany</option>
+		 <option value="Japan">Japan</option>
+		 <option value="Korea">Korea</option>
+		 <option value="United State">United State</option>
+		 <option value="America">America</option>
+		 </select>
+		</div>
+
+		
+	</form>
+	
+	
+	<div class="details-order" >
+	<center><div ><h3>Order specifications</h3></div></center>
+    
+	<form >
+	<div>
+		<select name="selection" class="popFildSele-O" >
+         <option value="select">Select a Color </option>
+		 <option value="select">red</option>
+		 <option value="select">black</option>
+		 <option value="select">white</option>
+		 <option value="select">gray</option>
+		 <option value="select">pink</option>
+		 <option value="select">purple</option>
+		 <option value="select">darkred</option>
+		 </select>
+		 
+		 <select name="selection" class="popFildSele-O"  >
+         <option value="select">Select a Design </option>
+		 <option value="select">smile</option>
+		 <option value="select">wide leg</option>
+		 <option value="select">skinny</option>
+		 </select>
+	</div>
+		
+		<div>
+		<select name="selection" class="popFildSele-O" >
+         <option value="select">Select Size </option>
+		 <option value="select">Small</option>
+		 <option value="select">X-S</option>
+		 <option value="select">Large</option>
+		 <option value="select">X-L</option>
+		 <option value="select">XX-L</option>
+		 <option value="select">XXX-L</option>
+		 <option value="select">Medium</option>
+		 </select>
+		 
+		 <select name="selection" class="popFildSele-O"  >
+         <option value="select">Select a details </option>
+		 <option value="select">Gentlemen</option>
+		 <option value="select">engraved</option>
+		 </select>
+	</div>	
+	
+		<div>
+		 <button class="Btn-O"  onclick="clickme()">Click for payment details</button>
+		</div>
+
+
+	</form>
+  </div><!-- details-order -->
+	
+	
+	
+	<div id="Yorder">
+    <table>
+      <tr>
+        <th colspan="2">Your order</th>
+      </tr>
+	  
+      <tr>
+        <td>Product Name x 2(Qty)</td> <!---nth-child(l)-->
+        <td>$88.00</td> <!---nth-child(2)-->
+      </tr>
+	  
+      <tr>
+        <td>Subtotal</td>
+        <td>$88.00</td>
+      </tr>
+	  
+	  
+      <tr>
+        <td>Shipping</td>
+        <td>Free shipping</td>
+      </tr>
+	  
+    </table>
+	
+	<br>
+	
+    <div>
+    <input type="radio" name="dbt" value="dbt" checked> Direct Bank Transfer
+    </div>
+    <p>
+        Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.
+    </p>
+	
+    <div>
+      <input type="radio" name="dbt" value="cd"> Cash on Delivery
+    </div>
+    
+	
+	<div>
+      <input type="radio" name="dbt" value="cd"> Paypal 
+    </div>
+	
+	<div>
+		<input class="Btn-O" type="submit" value="Send Now" onclick="clikhere()">
+	</div>
+	
+	
+  </div><!-- Yorder -->
+ 
+	
+	
+	
+		</div><!-----------model-body----------->
+	</div> <!-----model-content------>
+	<div> <!-----------order-model----------->
+<center>
+
+  
+ <!---------------------------script for topButton---------------------------->
+<script>
+
+var mydiv = document.getElementById("top-page");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+    mydiv.style.display = "block";
+  } else {
+    mydiv.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+
+
+
+
+
+ </script>
+ <!---------------------------script for topButton----------------------------> 
+
+
+
+  
+  </body>
+  </html>
